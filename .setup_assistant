@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rockbreaker_arm_simulator
+    relative_path: rockbreaker_description/urdf/rockbreaker_arm.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/rockbreaker_arm.srdf
+  CONFIG:
+    author_name: Brayan Towers
+    author_email: brayan.torres.araya@ua.cl
+    generated_timestamp: 1670934444
